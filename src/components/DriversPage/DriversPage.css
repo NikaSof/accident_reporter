@@ -1,0 +1,59 @@
+.btn{
+    background-color: #6c7083;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    /*margin-top: 10px;*/
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.btn:hover{
+    background-color: #3e404a;
+}
+
+.table-container {
+    margin: 0 auto; /* Выравнивание таблицы по центру */
+    width: 80%; /* Ширина таблицы */
+}
+
+.table {
+    border-collapse: collapse; /* Убираем двойные границы между ячейками */
+    width: 100%; /* Ширина таблицы равна ширине контейнера */
+}
+
+.table th,
+.table td {
+    border: 1px solid rgba(21, 23, 62, 0.32); /* Граница вокруг ячеек */
+    padding: 8px; /* Отступ внутри ячеек */
+    text-align: left; /* Выравнивание текста по левому краю */
+}
+
+.table th {
+    background-color: #f8f8f8; /* Цвет фона заголовков таблицы */
+    font-weight: bold; /* Полужирный шрифт для заголовков таблицы */
+    z-index: 1;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f8f8f8; /* Цвет фона четных строк таблицы */
+}
+
+.table tr:hover {
+    background-color: #caebef; /* Цвет фона при наведении на строку таблицы */
+    z-index: 1;
+}
+
+.my-input{
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: normal;
+}

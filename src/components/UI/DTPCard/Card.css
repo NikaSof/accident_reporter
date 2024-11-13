@@ -1,0 +1,36 @@
+.card{
+    width: 250px;
+    /*height: 300px;*/
+    padding: 0 10px 0 10px;
+    background-color: #cbdcb4;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #888888;
+}
+
+.card-info-text{
+    /*display: flex;*/
+    /*position: relative;*/
+    text-align: left;
+    width: 100px;
+}
+
+.cars-description{
+    border-top: 2px solid #ffffff;
+    text-align: right;
+}
+
+
+.additional-info{
+    position: absolute;
+    /*top: 0;*/
+    /*left: 100%;*/
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    z-index: 1;
+    background-color: #cccccc;
+}
